@@ -17,14 +17,13 @@ public class Main {
 				b[i][j] = new Board();
 			}
 		}
-		b[0][0] = new BHero();
+		b[curY][curX] = new BHero();
 		b[1][1] = new BWall();
 		b[1][2] = new BWall();
 		b[1][3] = new BWall();
 	}
 
 	public static void print_b() {
-		// ----print the map
 		for (int i = 0; i < b.length; i++) {
 			for (int j = 0; j < b[i].length; j++) {
 				System.out.print(b[i][j].getCh() + " ");
