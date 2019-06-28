@@ -9,6 +9,7 @@ public class Main {
 
 	public static void init() {
 		System.out.println("park tae hyeok");
+		System.out.println("park tae hyeok in ECLIPSE Edit");
 		b = new Board[BOARD_SIZE][];
 		for (int i = 0; i < b.length; i++) {
 			b[i] = new Board[BOARD_SIZE];
