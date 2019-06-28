@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// ¿Ãª€ ¡÷ºÆ
 public class Main {
 	static Board[][] b;
 	static int curX = 0;
@@ -8,6 +7,7 @@ public class Main {
 	static final int BOARD_SIZE = 5;
 
 	public static void init() {
+		System.out.println("init method...");
 		b = new Board[BOARD_SIZE][];
 		for (int i = 0; i < b.length; i++) {
 			b[i] = new Board[BOARD_SIZE];
