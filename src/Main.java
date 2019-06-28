@@ -7,7 +7,7 @@ public class Main {
 	static final int BOARD_SIZE = 5;
 
 	public static void init() {
-		System.out.println("init method...");
+		System.out.println("init method...0628:0301");
 		b = new Board[BOARD_SIZE][];
 		for (int i = 0; i < b.length; i++) {
 			b[i] = new Board[BOARD_SIZE];
