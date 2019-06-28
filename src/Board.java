@@ -1,3 +1,4 @@
+//¿Ãª€ ¡÷ºÆ3
 public class Board {
 	static public enum CAT {
 		BOARD, HERO, WALL

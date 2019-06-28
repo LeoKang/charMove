@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// ¿Ãª€ ¡÷ºÆ
 public class Main {
 	static Board[][] b;
 	static int curX = 0;
