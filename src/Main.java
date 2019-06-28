@@ -8,6 +8,7 @@ public class Main {
 	static final int BOARD_SIZE = 5;
 
 	public static void init() {
+		System.out.println("park tae hyeok");
 		b = new Board[BOARD_SIZE][];
 		for (int i = 0; i < b.length; i++) {
 			b[i] = new Board[BOARD_SIZE];
